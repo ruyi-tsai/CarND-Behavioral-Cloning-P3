@@ -21,6 +21,7 @@ The goals / steps of this project are the following:
 [image1]: ./normal.png "validation model"
 [image2]: ./overfiting.png "overfiting model"
 [image3]: ./model_plot.png "model architecture"
+[first]: ./run1.mp4 "video"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
