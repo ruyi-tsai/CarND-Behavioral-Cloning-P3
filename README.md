@@ -130,4 +130,4 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 #### 3. Creation of the Training Set & Training Process
 For create good model. I try creating more information driving_log.csv. And then I can get more information to train model.
 
-After this training, the car was driving down the road all the time on the [first](run1.mp4) .
+After this training, the car was driving down the road all the time on the run1.mp4
