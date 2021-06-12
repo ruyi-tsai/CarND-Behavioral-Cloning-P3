@@ -30,6 +30,7 @@ from keras.layers.convolutional import Convolution2D
 from keras.layers.pooling import MaxPooling2D
 from keras.models import Model
 import matplotlib.pyplot as plt
+from keras.utils.vis_utils import plot_model
 
 
 model = Sequential()
@@ -45,8 +46,11 @@ model.add(Dense(128))
 model.add(Dense(64))
 model.add(Dense(32))
 model.add(Dense(1))
+model.summary() 
+  
+plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
 model.compile(loss='mse',optimizer='adam')
-history_object = model.fit(X_train,Y_train,validation_split=0.2,shuffle=True, epochs  = 5, verbose=1)
+history_object = model.fit(X_train,Y_train,validation_split=0.2,shuffle=True, epochs  = 10, verbose=1)
 
 #history_object = model.fit_generator(train_generator, samples_per_epoch =
 #    len(train_samples), validation_data = 
