@@ -21,6 +21,7 @@ The goals / steps of this project are the following:
 [image1]: ./normal.png "validation model"
 [image2]: ./overfiting.png "overfiting model"
 [image3]: ./model_plot.png "model architecture"
+[image4]: ./cov.png "model architecture"
 [first]: ./run1.mp4 "video"
 
 ## Rubric Points
@@ -119,13 +120,19 @@ I first try to sample net but result not good result. So use more complicate net
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
+My final solution NET is reference uduacity . But First times my car drop water so  I try get better training set. It is work.
+
 #### 2. Final Model Architecture
 
 The final model architecture (model.py lines 36-48) consisted of a convolution neural network with the following layers and layer sizes ...
 
+This architecture is my final solution.
+![plot model summary][image4]
+
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
 ![plot model summary][image3]
+
 
 #### 3. Creation of the Training Set & Training Process
 For create good model. I try creating more information driving_log.csv. And then I can get more information to train model.
